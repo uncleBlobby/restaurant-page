@@ -18,4 +18,6 @@ export default function drawAbout(backgroundPic) {
     aboutWindow.appendChild(aboutWindowContent);
 
     console.log(`Successfully loaded about.js module`);
+
+    return aboutWindow;
 };

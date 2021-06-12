@@ -30,7 +30,7 @@ body {
 .navBarItem {
     background-color: pink;
     text-align: center;
-    padding-top: 2vh;
+    padding-top: 3vh;
     border: 1px solid black;
 }
 
@@ -44,12 +44,24 @@ body {
 }
 
 .navWindow {
+    margin-left: 10vw;
     margin-top: 5vh;
     height: 60vh;
+    width: 80vw;
     background-color: #29292981;
     border: 1px solid black;
+    color: white;
 }
 
+.windowHeader {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 5vh;
+}
+
+.windowContent {
+    text-align: center;
+}
 #aboutWindow {
     display: none;
 }

@@ -8,5 +8,6 @@
     
     - js modularized and exported / imported where needed
     
-    - navbar links currently DO NOT open the corresponding page
-        -- coming soon :P
+    - navbar links open corresponding pages
+    
+    - page content coming soon :P

@@ -1,0 +1,63 @@
+.testDiv {
+    background-color: #292929;
+}
+
+body {
+    background-color: #292929;
+}
+
+#header {
+    text-align: center;
+    background-color: aqua;
+    height: 10vh;
+    padding-top: 5vh;
+    border: 1px solid black;
+}
+
+#header:hover {
+    background-color: rgb(169, 255, 255);
+}
+
+#navBar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 2vh;
+    height: 10vh;
+
+}
+
+.navBarItem {
+    background-color: pink;
+    text-align: center;
+    padding-top: 2vh;
+    border: 1px solid black;
+}
+
+.navBarItem:hover {
+    background-color: rgb(255, 225, 230);
+}
+
+.backgroundPic {
+    height: 100vh;
+    background-color: gray;
+}
+
+.navWindow {
+    margin-top: 5vh;
+    height: 60vh;
+    background-color: #29292981;
+    border: 1px solid black;
+}
+
+#aboutWindow {
+    display: none;
+}
+
+#menuWindow {
+    display: none;
+}
+
+#contactWindow {
+    display: none;
+}
